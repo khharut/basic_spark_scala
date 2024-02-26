@@ -1,0 +1,18 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 44 __b7164417-c6ba-4eb8-8926-520464fa5ead, None, None)
+[debug] > Exec(bspBuildTargetCompile file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Test, Some(__b7164417-c6ba-4eb8-8926-520464fa5ead), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/compile"})
+[debug] Evaluating tasks: bspBuildTargetCompile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"70","parents":[]},"eventTime":1708907436053,"message":"Compiling basic_spark_scala","dataKind":"compile-task","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"70","parents":[]},"eventTime":1708907436061,"message":"Compiled basic_spark_scala","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"},"errors":0,"warnings":0,"time":8}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"71","parents":[]},"eventTime":1708907436064,"message":"Compiling basic_spark_scala-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Test"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"71","parents":[]},"eventTime":1708907436071,"message":"Compiled basic_spark_scala-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Test"},"errors":0,"warnings":0,"time":7}})
+[success] Total time: 0 s, completed Feb 26, 2024, 1:30:36 AM
+[debug] > Exec(sbtCompleteExec 44, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 44, Some(44), Some(CommandSource(network-1)))
+[debug] unmatched Processing event for requestId Some(44): None
+[debug] unmatched json response for requestId Some(44): {"status":"Done","channelName":"network-1","execId":"44","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)

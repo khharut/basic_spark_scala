@@ -1,0 +1,40 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 43 __26d178c0-b026-4d5c-a020-54ae378da373, None, None)
+[debug] > Exec(bspBuildTargetCompile file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Test file:/home/harutyun/basic_spark_scala/#basic_spark_scala-build, Some(__26d178c0-b026-4d5c-a020-54ae378da373), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/compile"})
+[debug] Evaluating tasks: bspBuildTargetCompile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] buildTarget/compile is a no-op for build.sbt targets: [BuildTargetIdentifier(file:/home/harutyun/basic_spark_scala/#basic_spark_scala-build)]
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"68","parents":[]},"eventTime":1708907430833,"message":"Compiling basic_spark_scala","dataKind":"compile-task","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[info] compiling 1 Scala source to /home/harutyun/basic_spark_scala/target/scala-2.13/classes ...
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to /home/harutyun/basic_spark_scala/target/scala-2.13/classes ..."})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907430943,"message":"Compiling basic_spark_scala (15%)","total":26,"progress":15,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907430944,"message":"Compiling basic_spark_scala (15%)","total":26,"progress":15,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907430952,"message":"Compiling basic_spark_scala (30%)","total":26,"progress":30,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907430953,"message":"Compiling basic_spark_scala (30%)","total":26,"progress":30,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907430959,"message":"Compiling basic_spark_scala (50%)","total":26,"progress":50,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907430960,"message":"Compiling basic_spark_scala (50%)","total":26,"progress":50,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907430999,"message":"Compiling basic_spark_scala (65%)","total":26,"progress":65,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907430999,"message":"Compiling basic_spark_scala (65%)","total":26,"progress":65,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907431002,"message":"Compiling basic_spark_scala (80%)","total":26,"progress":80,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907431002,"message":"Compiling basic_spark_scala (80%)","total":26,"progress":80,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907431026,"message":"Compiling basic_spark_scala (100%)","total":26,"progress":100,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"68","parents":[]},"eventTime":1708907431026,"message":"Compiling basic_spark_scala (100%)","total":26,"progress":100,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"}}})
+[warn] 1 deprecation (since 2.13.3); re-run with -deprecation for details
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":2,"message":"1 deprecation (since 2.13.3); re-run with -deprecation for details"})
+[warn] one warning found
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":2,"message":"one warning found"})
+[info] done compiling
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"done compiling"})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"68","parents":[]},"eventTime":1708907431031,"message":"Compiled basic_spark_scala","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Compile"},"errors":0,"warnings":0,"time":198}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"69","parents":[]},"eventTime":1708907431040,"message":"Compiling basic_spark_scala-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Test"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"69","parents":[]},"eventTime":1708907431048,"message":"Compiled basic_spark_scala-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/harutyun/basic_spark_scala/#basic_spark_scala/Test"},"errors":0,"warnings":0,"time":8}})
+[debug] Forcing garbage collection...
+[success] Total time: 1 s, completed Feb 26, 2024, 1:30:31 AM
+[debug] > Exec(sbtCompleteExec 43, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 43, Some(43), Some(CommandSource(network-1)))
+[debug] unmatched Processing event for requestId Some(43): None
+[debug] unmatched json response for requestId Some(43): {"status":"Done","channelName":"network-1","execId":"43","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)
